@@ -1,5 +1,5 @@
 project:
-  name: quickstart-codepipeline-bluegreen-deployment
+  name: cfn-ps-codepipeline-bluegreen-deployment
   owner: quickstart-eng@amazon.com
   package_lambda: false
   regions:
@@ -35,7 +35,7 @@ tests:
    #   NameofthePipeline: BlueGreenCICDPipeline1
   #    QSS3BucketName: $[taskcat_autobucket]
    #   QSS3BucketRegion: $[taskcat_current_region]
-   #   QSS3KeyPrefix: quickstart-codepipeline-bluegreen-deployment/
+   #   QSS3KeyPrefix: cfn-ps-codepipeline-bluegreen-deployment/
   #  regions:
   #  - us-west-2
   #  s3_bucket: ''
@@ -53,7 +53,7 @@ tests:
       NameofthePipeline: BlueGreenCICDPipeline3
       QSS3BucketName: $[taskcat_autobucket]
       QSS3BucketRegion: $[taskcat_current_region]
-      QSS3KeyPrefix: quickstart-codepipeline-bluegreen-deployment/
+      QSS3KeyPrefix: cfn-ps-codepipeline-bluegreen-deployment/
     regions:
     - us-east-1
     s3_bucket: ''
