@@ -57,5 +57,5 @@ tests:
     regions:
     - us-east-1
     s3_bucket: ''
-    template: templates/bluegreen-deployment-master.template
+    template: templates/bluegreen-deployment-main.template.yaml
 

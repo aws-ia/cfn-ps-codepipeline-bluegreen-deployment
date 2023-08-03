@@ -312,3 +312,6 @@ Outputs:
       - CreateNewBeanstalkEnv
       - !GetAtt 'BeanstalkEnvironment.EndpointURL'
       - ''
+  GreenEnvironmentName:
+    Description: Green environment name
+    Value: !Ref GreenEnvironmentName
