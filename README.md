@@ -1,4 +1,8 @@
 # quickstart-codepipeline-bluegreen-deployment
+## Deprecation Notice
+
+:x: This repository is subject to deprecation in Q4 2024. For more details, [please review this announcement](https://github.com/aws-ia/.announcements/issues/1). 
+
 ## Blue-Green Deployment on the AWS Cloud
 
 This Quick Start automatically builds an architecture for blue-green deployment to an Amazon Web Services (AWS) Elastic Beanstalk environment using AWS CodePipeline. The Quick Start creates a continuous integration/continuous delivery pipeline for a cost-effective, fault-tolerant architecture. The deployment is automated by an AWS CloudFormation template and takes about 15 minutes.
